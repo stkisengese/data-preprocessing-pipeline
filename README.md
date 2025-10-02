@@ -16,3 +16,38 @@ This project is divided into six Jupyter notebooks, each focusing on a specific 
 5.  **ex05_categorical_variables.ipynb**: Shows how to apply different preprocessing techniques to different columns of a dataset using `make_column_transformer`. This notebook combines `OneHotEncoder` and `OrdinalEncoder` to preprocess a dataset with mixed feature types.
 
 6.  **ex06_pipeline.ipynb**: Demonstrates how to build a complete machine learning workflow using the `Pipeline` class. It chains multiple preprocessing steps (imputation and scaling) with a final estimator (Logistic Regression) to create a single, streamlined model.
+
+## Usage
+
+To run these notebooks, follow these steps:
+
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/skisengese/data-preprocessing-pipeline.git
+    cd data-preprocessing-pipeline
+    ```
+
+2.  **Create a virtual environment and install dependencies:**
+    ```bash
+    python -m venv venv
+    source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+    pip install -r requirements.txt
+    ```
+
+3.  **Launch Jupyter Notebook:**
+    ```bash
+    jupyter notebook
+    ```
+    Your browser will open to the Jupyter interface, where you can navigate to and run each `.ipynb` file.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Contributing
+
+Contributions are welcome! If you have suggestions for improvements or new features, please open an issue or submit a pull request.
+
+## Contact
+
+For any questions or feedback, please contact [Stephen](https://github.com/skisengese).
